@@ -1,0 +1,1 @@
+This is a project for The Odin Project to create a landing page utilizing CSS and HTML. In this project, By the end of this project, this work will demonstrate my skill in using HTML and CSS.
