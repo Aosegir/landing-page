@@ -2,16 +2,24 @@
 
 body {
     min-height: 100vh;
-    margin: 0 0 0 0;
-    padding: 0 0;
-}
-
-header, main, footer {
-    padding: 0 15%;
+    margin: 0;
+    padding: 0;
 }
 
 .main-div {
     height: 50vh;
+}
+
+header, #div-1, #div-4 {
+    padding: 0 10rem;
+}
+
+#div-2 {
+    padding: 0 12rem;
+}
+
+#div-3 {
+    padding: 0 15rem;
 }
 
 header p {
@@ -21,8 +29,6 @@ header p {
 .small-img {
     height: 150px;
     width: 150px;
-    border: 4px solid white;
-    border-radius: 10px;
 }
 
 .vertical-pad {
@@ -57,13 +63,13 @@ header p {
     text-align: right;
 }
 
-.increased-padding {
-    padding: 0 10%;
-}
-
 button {
     height: 30px;
     width: 90px;
+}
+
+#div-1 img {
+    padding: 15% 10%;
 }
 
 
@@ -152,25 +158,37 @@ h2 {
 * Light 2 - #FE7BE5
 */
 
-body, html {
-    margin: 0;
-    padding: 0;
-}
-
-footer {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-header, #dark-bg, footer {
+header, #div-1, footer {
     background-color: #313866;
     color: white;
 }
 
+#div-3 {
+    background-color: #504099;
+    color: white;
+}
 
-.blue-border {
-    border: 4px solid lightskyblue;
+footer p {
+    margin: 0;
+    padding: 3%;
+}
+
+
+.button-dark {
+    border: 4px solid #974EC3;
+    background-color: #974EC3;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-light {
+    border: 3px solid white;
+    color: white;
+    background-color: #974EC3;
+    border-radius: 10px;
+}
+
+.small-img {
+    border: 4px solid #974EC3;
     border-radius: 10px;
 }
