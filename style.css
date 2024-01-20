@@ -13,10 +13,6 @@ header p {
     padding: 0 10%;
 }
 
-#quote-text {
-    font-size: 36px;
-}
-
 .small-img {
     height: 150px;
     width: 150px;
@@ -104,13 +100,41 @@ button {
 
 /* -- Font Sizing and Styling -- */
 
-#header-logo {
-    font-size: 24px;
-    font-weight: bold;
+* {
+    font-family: 'Rubik', 'Raleway', sans-serif;
 }
 
-.header-link {
+#header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.secondary-text {
     font-size: 18px;
+}
+
+.tertiary-text {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 
