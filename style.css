@@ -11,12 +11,15 @@ header p {
     padding: 10px;
 }
 
-.center-text {
-    text-align: center;
-}
-
 #quote-text {
     font-size: 36px;
+}
+
+.small-img {
+    height: 150px;
+    width: 150px;
+    border: 4px solid white;
+    border-radius: 10px;
 }
 
 
@@ -50,6 +53,10 @@ header p {
 
 .space-around {
     justify-content: space-around;
+}
+
+.center-align {
+    align-items: center;
 }
 
 
